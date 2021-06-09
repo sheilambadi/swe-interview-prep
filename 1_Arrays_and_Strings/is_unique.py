@@ -8,6 +8,7 @@ from collections import Counter
 
 
 def is_unique_dict(word):
+    # Time complexity: O(N) -> counter used
     counts = Counter(word)
     vals = list(counts.values())
 
@@ -17,6 +18,7 @@ def is_unique(word):
     """
         Implementation without an additional data structure
     """
+    # Time complexity: O(N) -> for loop
 
     # store previous letter in sorted list
     sorted_word = sorted(word)
