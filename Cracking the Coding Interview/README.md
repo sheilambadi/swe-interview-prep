@@ -7,3 +7,4 @@ Test cases were obtained from: https://github.com/careercup/CtCI-6th-Edition-Pyt
    1. [Check Permutation](./1_Arrays_and_Strings/2_check_permutation.py)
    1. [URLify](./1_Arrays_and_Strings/3_urlify.py)
    1. [Palindrome Permutation](./1_Arrays_and_Strings/4_palindrome_permutation.py)
+   1. [String to int](./1_Arrays_and_Strings/bonus_string_to_int.py)

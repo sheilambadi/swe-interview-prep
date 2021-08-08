@@ -1,9 +1,9 @@
 """
-Convert numeric string to number without using Python's built in functions.
+    Convert numeric string to number without using Python's built in functions.
 
-Ref: https://stackoverflow.com/a/46406388/8398363 
-The trick is that 546 = 500 + 40 + 6, or 5*10^2 + 4*10^1 + 6*10^0.
-Note how the exponent is just the index (in reverse). Using that, you can generalize this approach into a function.
+    Ref: https://stackoverflow.com/a/46406388/8398363 
+    The trick is that 546 = 500 + 40 + 6, or 5*10^2 + 4*10^1 + 6*10^0.
+    Note how the exponent is just the index (in reverse). Using that, you can generalize this approach into a function.
 """
 
 char_digit = {
